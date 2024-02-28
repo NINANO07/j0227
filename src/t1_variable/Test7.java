@@ -1,0 +1,48 @@
+package t1_variable;
+
+//자동 타입 변환
+public class Test7 {
+	public static void main(String[] args) {
+		int su1 = 100;
+		double su2 = 3.14;
+		
+		su1 = su1+200;
+		System.out.println("su1 : " +su1);
+		
+		//su1 = su1+su2;
+		su2 = su1 +su2; //double 타입으로 자동변환
+		System.out.println("su2 : " +su2);
+		
+		double result, result2;
+		result = su1 + su2; 
+		System.out.println( "result : " +result);
+		
+		result2 = su1+su1;
+		System.out.println( "result2 : " +result2);
+		
+		int atom; 
+		atom = 1+2*3; //연산 우선 순위
+		System.out.println("atom : " + atom);
+		
+		char cc1 = 'A';
+	
+		int res2 = cc1 + 1;
+		System.out.println("res2 : " +res2);
+		
+		System.out.printf("res2 = %d\n", res2);
+		System.out.printf("res2 = %c\n", res2);
+		System.out.println();
+		
+		String ss1 ="hi";
+		System.out.println("ss1 : " +ss1);
+		System.out.printf("ss1 : %s\n ", ss1);
+		
+		double dd1 =3.14;
+		System.out.println("dd1 :" +dd1);
+		System.out.printf("dd1 : %.2f\n", dd1);
+		System.out.printf("dd1 : %6.2f\n", dd1); 
+		
+		
+	}
+
+}
