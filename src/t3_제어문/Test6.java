@@ -11,7 +11,7 @@ public class Test6 {
 		int num;
 		String str;
 		
-		System.out.print("숫자를 입력하세요 : ");
+		System.out.print("====>숫자를 입력하세요 : ");
 		num = sc.nextInt();
 		
 		if(num>0) str = "양수";
